@@ -7,6 +7,8 @@ A simple to parse, raw image file format. Implementations to read images in pyth
 
 ## V implementation
 
+**WARNING: the V and python reader uses little endian byte order**
+
 `v run rimg-reader.v` will run the file in the terminal and the file specified in the main function `test.rimg` will be read and displayed inside the terminal
 
 Default constants
